@@ -1,0 +1,7 @@
+Tambahkan di dalam <manifest ...>, sebelum <application ...>:
+<uses-permission android:name="android.permission.INTERNET"/>
+
+Di tag <application ...>, tambahkan:
+android:allowBackup="false"
+
+Jangan mengganti seluruh AndroidManifest.xml bawaan Flutter. Cukup tambahkan atribut dan permission tersebut.
